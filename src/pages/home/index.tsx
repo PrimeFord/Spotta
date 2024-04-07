@@ -28,7 +28,7 @@ const HomePage = () => {
               type="text"
               name="search"
               placeholder="Enter Address"
-              value={address}
+              // value={address}
               id="search"
             />
           </div>
