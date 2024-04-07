@@ -5,14 +5,17 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+  * {
     font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 }
 @layer base {
   @font-face {
     font-family: "Clash";
-    src: url("../public/fonts/ClashDisplay-Regular.ttf") format("truetype");
+    src: url("../fonts/ClashDisplay-Regular.ttf") format("truetype");
     font-weight: 400;
     font-display: normal;
     font-style: normal;
